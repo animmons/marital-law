@@ -1,0 +1,97 @@
+body {
+	background-color: gray;
+}
+
+#main {
+	background-color: #f5f5f5;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: -16px;
+    width: 1600px;
+}
+
+h1, h2, h3, h4, h5 {
+	color: #0d507d;
+}
+
+p {
+	color: #6d6d6d;
+}
+
+header, #contact-area {
+	background-image: url("images/header-footer-pattern.jpg");
+}
+
+/* 
+footer {
+	background-color: black;
+	width: 1600px;
+	margin-top: -16px;
+	margin-left: auto;
+    margin-right: auto;
+}
+*/
+
+ul li {
+	list-style-type: none;
+	color: pink;
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+nav {
+	height: 148px;
+}
+
+#container {
+	width: 1210px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#top-center {
+	text-align: center;
+}
+
+#left-column {
+	width: 35%;
+	float: left;
+	margin-right: 40px;
+}
+
+#round-logo {
+	width: 15%;
+	float: left;
+	margin-right: 40px;
+}
+
+#right-column {
+	width: 35%;
+	float: left;
+	margin-left: 80px;
+}
+
+#contact-area {
+	height: 378px; 
+}
+
+#contact-sections {
+	margin-top: -6px;
+	width: 1210px;
+	margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+#contact-left {
+	float: left;
+	padding-right: 100px;
+
+}
+
+#contact-center {
+	float: left;
+	padding-right: 252px;
+}
+
