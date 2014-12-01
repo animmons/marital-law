@@ -1,3 +1,10 @@
+* {
+	/* font-family: 'Kozuka Gothic Pr6N'; */
+	font-family: "seravek";
+	font-weight: light;
+
+}
+
 body {
 	background-color: gray;
 }
@@ -14,31 +21,81 @@ h1, h2, h3, h4, h5 {
 	color: #0d507d;
 }
 
-p {
-	color: #6d6d6d;
+h1 {
+	font-size: 40px;
+	border-bottom: 2px solid #EAE9E9;
+	padding-bottom: 20px;
+	font-weight: normal;
 }
 
+h2 {
+	font-weight: normal;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #EAE9E9;
+
+}
+
+h3 {
+	font-weight: lighter;
+	padding-bottom: 20px;
+	font-weight: normal;
+}
+
+
+p {
+	color: #6d6d6d;
+	font-weight: lighter;
+}
+
+
+.special {
+	color: #0d507d;
+	font-weight: normal;
+}
 header, #contact-area {
 	background-image: url("images/header-footer-pattern.jpg");
 }
 
-/* 
+
 footer {
 	background-color: black;
 	width: 1600px;
 	margin-top: -16px;
 	margin-left: auto;
     margin-right: auto;
+    height: 94px;
 }
-*/
+
+#footer-left {
+	width: 625px;
+	margin-left: 189px;
+	padding-top: 20px;
+	float: left;	
+	font-size: 11px;
+}
+
+#footer-right {
+	text-align: right;
+	font-size: 13px;
+	margin-right: 216px;
+	padding-top: 20px;
+}
 
 ul li {
 	list-style-type: none;
-	color: pink;
-	padding: 0;
-	margin: 0;
+	padding: 12px 22px;
+	margin-left: -2px;
+	margin-right: -2px;
 	display: inline;
+	font-size: 14px;
+	font-weight: lighter;
+	color: #6d6d6d;
+	font-variant: 0px;
+	background-color: black;
+	box-shadow: 0px 0.1px #6D6D60;
+	width: 100%;
 }
+
 
 nav {
 	height: 148px;
@@ -46,6 +103,7 @@ nav {
 
 #container {
 	width: 1210px;
+	height: 828px;
 	margin-left: auto;
     margin-right: auto;
 }
@@ -64,6 +122,7 @@ nav {
 	width: 15%;
 	float: left;
 	margin-right: 40px;
+	padding-top: 67px;
 }
 
 #right-column {
@@ -92,6 +151,8 @@ nav {
 
 #contact-center {
 	float: left;
-	padding-right: 252px;
+	padding-right: 229px;
 }
+
+
 
